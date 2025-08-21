@@ -1,0 +1,31 @@
+{
+  "name": "blackbird/selective-cron",
+  "description": "",
+  "require": {
+    "magento/framework": ">=100.0.0",
+    "magento/module-catalog": ">=100.0.0",
+    "php": ">=8.1"
+  }
+,
+  "require-dev": {
+
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Blackbird Agency",
+      "email": "support@bird.eu",
+      "homepage": "https://black.bird.eu"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Blackbird\\SelectiveCron\\": ""
+    }
+  }
+}
